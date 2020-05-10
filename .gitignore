@@ -1,0 +1,32 @@
+*target/
+!.mvn/wrapper/maven-wrapper.jar
+pom.xml.versionsBackup
+
+# Do not include custom CA (Usually Fiddler ROOT CA)
+.mvn/ca.cer
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+/it/
+*.log
