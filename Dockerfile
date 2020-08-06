@@ -1,6 +1,7 @@
 FROM maven:3.6.3-jdk-11-slim
 
 RUN apt-get update && apt-get install -y \
+        chromium \
         dirmngr \
         fontconfig-config \
         git \
